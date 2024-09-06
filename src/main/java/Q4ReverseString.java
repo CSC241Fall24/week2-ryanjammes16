@@ -5,7 +5,7 @@ public class Q4ReverseString {
     public static String reverse(String s) {
         // TODO: Implement the recursive function to reverse the string
         if (s.length() <= 1){
-            returns;}
+            return s;}
         return reverse(s.substring(beginIndex:1)) + s.charAt(index:0);
     }
 }
