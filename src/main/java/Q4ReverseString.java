@@ -6,6 +6,6 @@ public class Q4ReverseString {
         // TODO: Implement the recursive function to reverse the string
         if (s.length() <= 1){
             return s;}
-        return reverse(s.substring(beginIndex:1)) + s.charAt(index:0);
+        return reverse(s.substring(beginIndex:1) + s.charAt(index:0));
     }
 }
